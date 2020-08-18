@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./vendor/assets/stylesheets/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <title>Authentication Forms</title>
+  </head>
+  <body>
+
+    <div class="container">
+  <div class="container">
+    <form>
+      <fieldset>
+        <legend>Authentication form and its varieties</legend>
+        <small class="form-text text-muted">Check it out to see what you might be asked on the final test! ;)</small>
+        <br/>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">This is your email:</label>
+          <div class="col-sm-10">
+            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email (don't forget the @)">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else, especially since we have no record of it.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Don't tell anyone!!!!!">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password Confirmation</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Make sure you write the same password here too!">
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect1">Example select from among many options</label>
+          <select class="form-control" id="exampleSelect1">
+            <option>Pick number 1</option>
+            <option>Number 2 isn't bad either</option>
+            <option>I guess number 3 is ok.</option>
+            <option>Anything but number 4!</option>
+            <option>Now youŕe wondering why I gave you 5 options!</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect2">This is an example for seletcing multiple items</label>
+          <select multiple="" class="form-control" id="exampleSelect2">
+            <option>Item 1</option>
+            <option>Item 2</option>
+            <option>Item 3</option>
+            <option>Item 4</option>
+            <option>Item 5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea" >Example of a textarea</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="You can type anything you want here. Wow!"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line so your audience can read it.</small>
+        </div>
+        <fieldset class="form-group">
+          <legend>Radio buttons</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Click if you still have a radio
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Click if you like what is on the radio
+            </label>
+          </div>
+          <div class="form-check disabled">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+              Click if you don't want to listen to French radio (oh well, you can't! Hehe!)
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Checkboxes</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              Check the box out... nice 90 degree angles! ;)
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" disabled="">
+              This box is the same as above, but with a bad attitude!
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Sliders</legend>
+          <label for="customRange1">Example of a slider... so much fun!</label>
+          <input type="range" class="custom-range" id="customRange1">
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit, but we won't read it</button>
+      </fieldset>
+    </form>
+  </div>
+
+
+  </body>
+</html>

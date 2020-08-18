@@ -10912,9 +10912,27 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 1.5em;
 }
 
-.jumbotronnn {
+.jumbotrons {
   background: url('https://cameronscookware.com/wp-content/uploads/2019/12/concert-stage-background-awesome-stage-backgrounds-39-images-combination-of-concert-stage-background.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+
+.hero-images {
+  background-image: url("https://cameronscookware.com/wp-content/uploads/2019/12/concert-stage-background-awesome-stage-backgrounds-39-images-combination-of-concert-stage-background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero-texts {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
